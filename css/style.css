@@ -1,0 +1,160 @@
+/* Estilização Geral do Site */
+
+/* REMOVE DECORAÇÃO DO CARACTERES */
+
+a {
+
+    text-decoration: none;                   /* Remove Decorações do Texto */
+
+}
+
+/* BOTÃO - CONFIGURAÇÃO */
+
+/*Botões do Index */
+
+.btn {
+
+
+    border: 3px solid #FEC63E ;                      /* Borda Botão */
+    color:#FEC63E;                                   /* Cor da Letra */
+    padding: 10px 30px;                                /* Espaçamento do "Retângulo" */
+    font-size: 14px;                                   /* Tamanho da Fonte */
+    font-weight: bold;                                 /* Negrito */
+    text-transform: uppercase;                         /* Letra Maisculo */
+    transition: 1s;                                    /* Transição do Efeito do Hover para o Normal*/
+
+}
+
+.btn:hover{                                          /* Alterando Botão ao passar o Mouse */
+
+    border: 3px solid #FFF;                        /* Cor da Borda do Botão */
+    color: #FFF;                                   /* Cor da Letra Interna */                                
+    padding: 12px 36px;                              /* Espaçamento do Retângulo com Alteração do Efeito Hover */
+    font-size: 15px;                                 /* Tamnho da Fonte Interna */
+    transition: 1s;                                  /* Transição para o completar o efeito Hover */
+
+}
+
+/* Botão usado no Portifólio */
+
+.btn1{
+    
+    border: 3px solid #FEC63E ;                      /* Borda Botão */
+    color:#FEC63E;                                   /* Cor da Letra */
+    padding: 5px 5px;                                   /* Espaçamento do "Quadrado" */                               
+    transition: 1s;                                    /* Transição do Efeito do Hover para o Normal*/
+}
+
+/* BEFORE PEQUENO - ELEMENTO P */
+
+.ant p::before{
+
+    content: "";
+    width: 50px;
+    height: 4px ;
+    display: block;
+    background-color: #FFFF;
+    margin: 10px auto;
+}
+
+/* AFTER PEQUENO - ELEMENTO P */
+
+.pos p::after{
+
+    content: "";
+    width: 50px;
+    height: 4px ;
+    display: block;
+    background-color: #FFFF;
+    margin: 15px auto;
+
+}
+
+/* BEFORE GRANDE - ELEMENTO P */
+
+.compPos p::before{
+
+
+    content: "";
+    width: 110px;
+    height: 4px ;
+    display: block;
+    background-color: #FFFF;
+    margin: 15px auto;
+
+}  
+
+/* AFTER GRANDE - ELEMENTO P */
+
+.compAnt p::after{
+
+
+    content: "";
+    width: 110px;
+    height: 4px ;
+    display: block;
+    background-color: #FFFF;
+    margin: 10px auto;
+
+}  
+
+/* EFEITO DO BOTÃO */
+
+.btn:hover{                                          /* Alterando Botão ao passar o Mouse */
+
+    border: 3px solid #FFF;                        /* Cor da Borda do Botão */
+    color: #FFF;                                   /* Cor da Letra Interna */                                
+    padding: 12px 36px;                              /* Espaçamento do Retângulo com Alteração do Efeito Hover */
+    font-size: 15px;                                 /* Tamnho da Fonte Interna */
+    transition: 1s;                                  /* Transição para o completar o efeito Hover */
+
+}
+
+/* HEADER */
+
+header {
+
+    background-color: #FEC63E;
+    padding: 15px 0;                     /* Gera espaçamento no top e no bottom -- Nada no left e right */
+    border-bottom: 2px solid black;    /* Borda -- para baixo -- Decoração */
+   
+}
+
+/* MENU */
+
+.header_menu {
+
+    display: inline-block;
+
+    margin-top: 25px;             /* Alinha o topo do Header_Menu      */
+    text-align: right;            /* Alinha para direita o Header_Menu */
+
+}
+
+.header_menu li {
+
+    display: inline-block;      /* Transforma em Linha e Bloco */
+    
+}
+
+.header_menu li a {             /* Hierarquia para chamar o Elemento */
+
+    color:black;                  /* Modifica a Cor do Elemento */
+    font-weight: bold;              /* Seta o Elemento como Negrito */
+    font-size: 14px;                /* Tamanho do Elemento */
+    padding: 10px;                  /* Espaçamento */
+    text-transform: uppercase;      /* Coloca as Letras em Maiusculo */ 
+
+}
+
+.header_menu li a:hover {           /* Personalização Link */
+
+    color: #FFF;
+    text-shadow: 2px 2px 5px black;   
+
+}
+
+
+
+
+

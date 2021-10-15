@@ -1,0 +1,210 @@
+
+/* SECTION - INTRO */
+
+/* Define a intro (Primeira imagem do Portifólio */
+
+.intro{
+
+    height: 180px;                                           /* Altura do section - Intro */
+    width: 100%;
+    background-image: url(./../img/bg-portifolio.jpg);       /* Imagem de BackGround */
+    background-repeat: no-repeat;                            /* Não repete a imagem do Fundo */
+    background-size: cover;                                  /* Ajusta a imagem conforme o tamnho */
+    text-align: center;                                      /* Alinha o texto ao centro */
+    padding: 35px;                                           /* Espaçamento */
+
+}
+
+.intro h1{
+
+    color: #FFFF;                                         /* Cor H1 - intro*/
+    text-transform: uppercase;                              /* Deixa o texto Maisculo */
+    font-size: 40px;                                        /* Tamanho da Fonte */
+    text-shadow: 0px 0px 2px black;                       /* Sombra nos caracteres */
+    
+}
+
+.intro p{
+    
+    color: #FFFF;                                        /* Cor p - Intro */
+    font-size: 20px;                                       /* Tamanho da fonte */
+    text-shadow: 0px 0px 2px black;                      /* Sombra nos caracteres */
+
+}
+
+
+/* SECTION - BLOCKQUOTE */  
+
+.citation{
+
+    height: 200px;                                         /* Section - Citação - Altura */
+    background-color: #FFFF;                             /* Cor Fundo */
+
+}
+
+.citation blockquote{
+   
+    padding: 50px 0;                                       /* Espaçamento */
+    text-align: center;                                    /* Alinhamento do texto */
+    width: 550px;                                          /* Largura para ajustar os caracteres */
+    margin: 0px auto;                                      /* Margin para ajustar os caracteres */
+    font-weight: bold;                                     /* Negrito */
+    font-size: 21px;                                       /* Tamanho da Fonte */
+    letter-spacing: 0.02em;                                /* Espaçamento entres as letras */
+    line-height: -10px;                                    /* Espaçamento entre as linhas */
+    font-style: italic;                                    /* Italico - Fonte */
+}
+
+.citation cite{
+
+    padding: 50px 0;                                       /* Espaçamento do CITE do Bloclquote */
+    display: inline-block;                                 /* Transformando em inline-block */
+    margin-left: 69%;                                      /* Porcentagem para ajustar posição do CITE */
+    text-transform: capitalize;                            /* Capitalizando o Texto "Eo Eo" */
+    color: #FF0000;                                      /* Cor do CITE */
+    font-style: normal;                                    /* Estilo da Fonte */
+ 
+}
+
+/* PAINEL DE FOTOS - FIGURE */
+
+
+.fotos{
+
+    height: 730px;                                        /* Section - Fotos - Altura */
+    background-color: black;                            /* Cor de fundo */
+    padding: 30px 0px;                                    /* ajuste no espaçamento das imagens */
+}
+
+.fotos img{
+
+    padding: 10px 0px;                                   /* Ajuste no espaçamento interno da imagens */
+
+}
+
+/* SECTION - CITAÇÃO 2 */
+
+.citation2{
+
+    background-image: url(./../img/bg-footer.jpg);                  /* Imagem no background */
+    background-repeat: no-repeat;                                   /* Removendo a Repetição */
+    background-size: cover;  
+    height: 220px;                                                  /* Figure - Citation2 - Altura */
+    text-align: center;                                             /* Alinhamento no texto - centro */
+    text-shadow: 0px 0px 2px black;                               /* Sombra nos caracteres */
+}
+
+.citation2 p{
+
+    padding: 40px 0;                                                /* Espaçamento - Elemento P */
+    width: 560px;                                                   /* Width para ajustar os caracteres */
+    margin: 0px auto;                                               /* margin ajustando posição do texto */
+    font-weight: bold;                                              /* Negrito */
+    font-size: 21px;                                                /* Tamanho da Fonte */
+    letter-spacing: 0.02em;                                         /* Espaçamento entre as Letras */
+    line-height: -10px;                                             /* Espaçamento - Linhas */
+    font-style: italic;                                             /* Italico */
+    color: #FFF;                                                  /* Cor da Fonte */
+}
+
+.citation2 cite{
+
+    color: #FFFF;                                              /* Cor da Font - CITE */         
+    font-size: 20px;                                             /* Tamanho da Font */
+    font-weight: bold;                                           /* Negrito */
+    text-transform: uppercase;                                   /* Deixando caracteres em Maiusculo */
+
+}
+
+/* FOOTER - Final */
+
+.corB{                                      /* .corB é uma Div que seta a cor preta no background */
+                                            
+    background-color: black;                 
+}
+
+.final{
+
+    padding: 20px 0px;                           /* Ajustando Espaçamento */
+    height: 160px;                               /* Footer - Final - Altura */
+
+}
+
+.final h3::after{                             /* h3 After */
+
+    content: "";                              /* Conteúdo */             
+    width: 110px;                             /* Largura */
+    height: 4px ;                             /* Altura */
+    display: block;                           /* Display - Tipo Block */
+    background-color:#FEC63E;               /* Background Color */
+    margin: 10px 0px;                         /* Margin ajustando altura do after */
+
+}
+
+.final h3{
+
+    color: #FEC63E;                           /*Cor do Caractere */
+    text-transform: uppercase;                  /* Transformando em letras Maiusculas */
+
+}
+
+.historia blockquote p{                          /* .historia é um elemento div dentro do footer */
+
+    color: #FFFF;                              /* Cor da Fonte */    
+    width: 75%;                                  /* Ajustando o texto com width */
+    padding: 9px 0;                              /* Arrumando espaçamento */
+
+}
+
+.historia p{
+
+
+    color: #FFFF;                              /* Cor da Fonte */
+    line-height: 20px;                           /* Espaçamento Linhas */
+    padding: 20px 0;                             /* Espaçamento */
+
+}
+
+.contato p{                                      /* .contato é uma div dentro do Footer */
+
+    padding: 10px 0;                             /* Espaçamento */
+    color:#FFFF;                               /* Cor da Fonte */
+    font-size: 15px;                             /* Tamanho Fonte */
+
+}
+
+.final a:hover{                                  /* Altera a:hover do .final(Footer) */
+
+    border: 5px solid #FFFF ;                      /* Borda Botão */
+    padding: 6px 6px;                                /* Espaçamento do "Quadrado" */           
+    transition: 1s;                                  /* Transição do Efeito do Hover para o Normal*/
+    margin: 2px 5px;                                 /* Margin para o Efeito */
+
+}
+
+
+.redesOnline{                                      /* .redesOnline é uma div dentro do Footer */
+
+    display: inline-block;                         /* Transforma o elemento em inline-block */                           
+
+}
+
+.redesOnline a{
+ 
+    display: inline-block;                          /* Transforma o elemento em inline-block */   
+    padding: 5px 5px;                               /* Ajusta o Espaçamento */
+    margin: 0px 3px;                                /* adiciona margin entre os botões */
+}
+
+
+/* DIV - RODAPÉ */
+
+.rodape{
+
+    background-color: #FEC63E;                      /* Cor de fundo */
+    height: 60px;                                     /* Div - Rodapé - Altura */
+    text-align: center;                               /* Alinha o Texto */
+    padding: 23px;                                    /* Espaçamento */
+    font-weight: bold;                                /* Negrito */
+ 
+}

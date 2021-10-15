@@ -1,0 +1,295 @@
+/* SECTION - INTRO */
+
+.intro{
+
+    background-image: url(./../img/bg-contato.jpg);      /* Adiciona imagem ao fundo */
+    width: 100%;
+    background-repeat: no-repeat;                        /* Remove repetição da imagem */
+    background-size: cover;                              /*Redimensiona corretamente a imagem de acordo com o elemento*/
+    height: 150px;                                       /* Altura */
+    text-align: center;                                  /* Alinhamento do texto */
+    color: #FFFF;                                      /* Cor do texto */
+
+}
+
+.intro h1{
+
+    padding-top: 35px;                                      /* Espaçamento Título */
+    text-transform: uppercase;                              /* Letra Maiúscila */
+    text-shadow: 0px 0px 2px black;                       /* Sombra */
+    font-size: 30px;                                        /* Tamanho Fonte */
+
+}
+
+.intro p{
+
+    font-size: 20px;
+    text-shadow: 0px 0px 2px black;
+}
+
+/* FORMÚLARIO */
+
+.informacoes{
+
+    margin-top: 50px;
+
+}
+
+.informacoes p{
+
+    padding: 5px 0px;
+    line-height: 2px;
+    font-weight: bold;
+}
+
+.informacoes .d{
+
+    width: 94.5%;
+    margin-bottom: 10px;
+    border: 0.22em solid #FEC63E;
+    height: 2em;
+
+}
+
+.informacoes .e{
+
+    width: 188.5%;
+    height: 100px;
+    border: 0.22em solid #FEC63E;
+    margin: 5px 0px;
+
+}
+
+.ta{
+
+    width: 50%;
+
+
+}
+
+
+/* Botão Submit */
+
+.d2{
+
+    height:50px;
+
+}
+
+
+.btnFinal{
+                      
+    color: #FEC63E;                                /* Cor da Letra Interna */                                
+    padding: 8px 22px;                               /* Espaçamento do Retângulo com Alteração do Efeito Hover */
+    font-size: 12px;                                 /* Tamnho da Fonte Interna */
+    background-color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold; 
+    margin-bottom: 10px;
+    border: 0.22em solid #FEC63E;                     /* Cor da Borda do Botão */
+
+}
+
+.btnFinal:hover{
+
+    border: 0.23em solid #FEC63E;                     /* Cor da Borda do Botão */
+    color: #FEC63E;                                   /* Cor da Letra Interna */                                
+    padding: 8px 22px;                                  /* Espaçamento do Retângulo com Alteração do Efeito Hover */
+    font-size: 13px;                                    /* Tamnho da Fonte Interna */
+    transition: 1s;                                     /* Transição para o completar o efeito Hover */
+
+}
+
+
+
+/* DADOS */
+
+.dados{
+
+    padding: 50px;
+    height: 200px;;
+
+}
+
+.dados h3{
+
+    color: #FEC63E;
+    text-transform: uppercase;
+
+}
+
+.dados .cont{
+
+    padding:20px;
+
+}
+
+/* MONTAGEM */
+
+.montagem p{
+
+   padding: 5px;
+
+}
+
+.montagem h3{
+
+    color: #FEC63E;
+    text-transform: uppercase;
+    padding:5px;
+
+}
+
+.montagem select{
+
+    width: 320px;
+    height: 30px;
+    background-color: #d3d3d3;
+
+}
+
+/* MAPA */
+
+.mapa {
+
+    padding-top:40px;
+
+}
+
+.mapa img {
+
+
+    border: 1px solid black;
+
+}
+
+/* SECTION - CITAÇÃO 1 */
+
+.citation2{
+
+    background-image: url(./../img/bg-footer.jpg);                  /* Imagem no background */
+    background-repeat: no-repeat;                                   /* Removendo a Repetição */
+    background-size: cover;                                         /*Redimensiona corretamente a imagem de acordo com o elemento*/
+    height: 220px;                                                  /* Figure - Citation2 - Altura */
+    text-align: center;                                             /* Alinhamento no texto - centro */
+    text-shadow: 0px 0px 2px black;                               /* Sombra nos caracteres */
+    margin-top: 30px;
+
+}
+
+.citation2 p{
+
+    padding: 40px 0;                                                /* Espaçamento - Elemento P */
+    width: 560px;                                                   /* Width para ajustar os caracteres */
+    margin: 0px auto;                                               /* margin ajustando posição do texto */
+    font-weight: bold;                                              /* Negrito */
+    font-size: 21px;                                                /* Tamanho da Fonte */
+    letter-spacing: 0.02em;                                         /* Espaçamento entre as Letras */
+    line-height: -10px;                                             /* Espaçamento - Linhas */
+    font-style: italic;                                             /* Italico */
+    color: #FFF;                                                  /* Cor da Fonte */
+}
+
+.citation2 cite{
+
+    color: #FFFF;                                              /* Cor da Font - CITE */         
+    font-size: 20px;                                             /* Tamanho da Font */
+    font-weight: bold;                                           /* Negrito */
+    text-transform: uppercase;                                   /* Deixando caracteres em Maiusculo */
+
+}
+
+/* FOOTER - Final */
+
+.corB{                                      /* .corB é uma Div que seta a cor preta no background */
+                                            
+    background-color: black;                 
+}
+
+.final{
+
+    padding: 20px 0px;                           /* Ajustando Espaçamento */
+    height: 160px;                               /* Footer - Final - Altura */
+
+}
+
+.final h3::after{                             /* h3 After */
+
+    content: "";                              /* Conteúdo */             
+    width: 110px;                             /* Largura */
+    height: 4px ;                             /* Altura */
+    display: block;                           /* Display - Tipo Block */
+    background-color:#FEC63E;               /* Background Color */
+    margin: 10px 0px;                         /* Margin ajustando altura do after */
+
+}
+
+.final h3{
+
+    color: #FEC63E;                           /*Cor do Caractere */
+    text-transform: uppercase;                  /* Transformando em letras Maiusculas */
+
+}
+
+.historia blockquote p{                          /* .historia é um elemento div dentro do footer */
+
+    color: #FFFF;                              /* Cor da Fonte */    
+    width: 75%;                                  /* Ajustando o texto com width */
+    padding: 9px 0;                              /* Arrumando espaçamento */
+
+}
+
+.historia p{
+
+
+    color: #FFFF;                              /* Cor da Fonte */
+    line-height: 20px;                           /* Espaçamento Linhas */
+    padding: 20px 0;                             /* Espaçamento */
+
+}
+
+.contato p{                                      /* .contato é uma div dentro do Footer */
+
+    padding: 10px 0;                             /* Espaçamento */
+    color:#FFFF;                               /* Cor da Fonte */
+    font-size: 15px;                             /* Tamanho Fonte */
+
+}
+
+.final a:hover{                                  /* Altera a:hover do .final(Footer) */
+
+    border: 5px solid #FFFF ;                      /* Borda Botão */
+    padding: 6px 6px;                                /* Espaçamento do "Quadrado" */           
+    transition: 1s;                                  /* Transição do Efeito do Hover para o Normal*/
+    margin: 2px 5px;                                 /* Margin para o Efeito */
+
+}
+
+
+.redesOnline{                                      /* .redesOnline é uma div dentro do Footer */
+
+    display: inline-block;                         /* Transforma o elemento em inline-block */                           
+
+}
+
+.redesOnline a{
+ 
+    display: inline-block;                          /* Transforma o elemento em inline-block */   
+    padding: 5px 5px;                               /* Ajusta o Espaçamento */
+    margin: 0px 3px;                                /* adiciona margin entre os botões */
+}
+
+
+/* DIV - RODAPÉ */
+
+.rodape{
+
+    background-color: #FEC63E;                      /* Cor de fundo */
+    height: 60px;                                     /* Div - Rodapé - Altura */
+    text-align: center;                               /* Alinha o Texto */
+    padding: 23px;                                    /* Espaçamento */
+    font-weight: bold;                                /* Negrito */
+ 
+}
+
+

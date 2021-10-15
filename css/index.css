@@ -1,0 +1,55 @@
+/* Introdução -- INTRO */
+
+.intro{
+
+    height: 400px;                               /*Altura do Elemento*/
+    width: 100%;
+    background-image: url("./../img/bg.jpg");    /*Adiciona Imagem no BackGround*/
+    background-repeat: no-repeat;                /*Tira a repetição da Imagem*/
+    background-size: cover;                      /*Redimensiona corretamente a imagem de acordo com o elemento*/
+    text-align: center;                          /*Alinha o texto*/
+    padding-top: 80px;                           /*Gera Espaçamento no texto*/
+    
+    /*background-position: center;  --  Centraliza a Imagem */
+
+}
+
+.intro h1{                                       /*Nível hirearquico - INTRO --> H1*/
+
+    color: #FFF;                                    /* Cor */
+    text-transform: uppercase;                        /* Letra Maiscula */
+    font-size: 48px;                                  /* Tamanho fonte */
+    text-shadow: 0px 0px 10px black;                /* Sombra */
+    font-weight: bold;                                /* Negrito */
+
+}
+
+blockquote{
+
+    color:#FFF;                                     /* Cor */
+    font-weight: bold;                                /* Negrito */
+    width: 30%;                                       /* Largura da Caixa de Testo */
+    margin: 40px auto;                                /* Centraliza o texto -- Funciona quando há uma largura definida */
+    letter-spacing: .1em;                             /*Gera espaçamento entre as letras */  
+    line-height: 20px;                                    /* Altura da Linha */
+
+}
+
+blockquote cite {                                   /* Hierarquia Blockquote --> cite */
+
+    text-transform: uppercase;                      /* Leta Maiscula */
+    
+}
+
+.barra p::before, p::after{
+
+    content: "";                              /* Conteúdo do Before e After */                  
+    width: 125px;                             /* Largura */
+    height: 5px;                              /* Altura */
+    display: block;                           /* Display --> do lado ou ocupa o bloco inteiro */
+    background-color: #FFF;                 /* Cor do Elemento */
+    margin: 15px auto;                        /* Alinha o em cima e em baixo, e alinha automaticamente os lados */
+
+    /* InlineBlock ocupa apenas a perte real e fica ao lado dos elementos */
+
+}
